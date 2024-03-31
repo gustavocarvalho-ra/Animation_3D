@@ -43,4 +43,24 @@ body {
   position: absolute;
   border-radius: 40%;
   border: 0.25vmin solid var(--c);
+  transform: rotateX(90deg) translateZ(24.5vmin);
+  animation: shine var(--s) linear var(--dl) infinite reverse;
+}
+
+.square div::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 0.25vmin solid var(--c);
+  border-radius: 40%;
+  box-shadow: 0 0 0.1vmin 0.5vmin var(--c), 0 0 0.1vmin 0.1vmin var(--c) inset;
+  animation: shine var(--s) linear calc(var(--dl) * -1) infinite reverse;
+}
+
+.square div:nth-child(2) {
+  transform: rotateX(90deg) translateZ(22.5vmin);
+  --sz: 43%;
+  --dl: calc(var(--dv) * -2);
+  filter: hue-rotate(-2deg);
 }
