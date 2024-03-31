@@ -12,14 +12,14 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   perspective: 1000vmin;
-  background-color: black;
+  background: black;
 }
 
 .square {
@@ -196,4 +196,17 @@ body {
   --sz: 23%;
   --dl: calc(var(--dv) * -21);
   filter: hue-rotate(-40deg);
+}
+
+@keyframes spin {
+  0% { transform: rotateX(-50deg) rotateY(0deg) rotateZ(185deg); }
+  100% { transform: rotateX(-50deg) rotateY(360deg) rotateZ(185deg); }
+}
+
+@keyframes shine {
+  33%, 100% {
+    border-color: #10101000;
+    filter: hue-rotate(360deg);
+    box-shadow: 0 0 1px 1px #00000000, 0 0 1px 1px #00000000 inset;
+  }
 }
