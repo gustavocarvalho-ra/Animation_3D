@@ -78,3 +78,38 @@ body {
   --dl: calc(var(--dv) * -4);
   filter: hue-rotate(-6deg);
 }
+
+.square div:nth-child(5) {
+  transform: rotateX(90deg) translateZ(15vmin);
+  --sz: 80%;
+  --dl: calc(var(--dv) * -5);
+  filter: hue-rotate(-8deg);
+}
+
+.square div:nth-child(6) {
+  transform: rotateX(90deg) translateZ(12.5vmin);
+  --sz: 86%;
+  --dl: calc(var(--dv) * -6);
+  filter: hue-rotate(-10deg);
+}
+
+.square div:nth-child(7) {
+  transform: rotateX(90deg) translateZ(10vmin);
+  --sz: 91%;
+  --dl: calc(var(--dv) * -7);
+  filter: hue-rotate(-12deg);
+}
+
+.square div:nth-child(8) {
+  transform: rotateX(90deg) translateZ(7.5vmin);
+  --sz: 95%;
+  --dl: calc(var(--dv) * -8);
+  filter: hue-rotate(-14deg);
+}
+
+.square div:nth-child(9) {
+  transform: rotateX(90deg) translateZ(5vmin);
+  --sz: 97%;
+  --dl: calc(var(--dv) * -9);
+  filter: hue-rotate(-16deg);
+}
