@@ -31,4 +31,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: none;
+}
+
+.square div {
+  --sz: 23%;
+  --dv: calc(var(--s) / var(--d));
+  --dl: calc(--dv) * -1;
+  width: var(--sz);
 }
