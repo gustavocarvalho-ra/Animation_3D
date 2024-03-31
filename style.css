@@ -39,4 +39,8 @@ body {
   --dv: calc(var(--s) / var(--d));
   --dl: calc(--dv) * -1;
   width: var(--sz);
+  height: var(--sz);
+  position: absolute;
+  border-radius: 40%;
+  border: 0.25vmin solid var(--c);
 }
