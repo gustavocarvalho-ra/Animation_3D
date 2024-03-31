@@ -64,3 +64,17 @@ body {
   --dl: calc(var(--dv) * -2);
   filter: hue-rotate(-2deg);
 }
+
+.square div:nth-child(3) {
+  transform: rotateX(90deg) translateZ(20vmin);
+  --sz: 60%;
+  --dl: calc(var(--dv) * -3);
+  filter: hue-rotate(-4deg);
+}
+
+.square div:nth-child(4) {
+  transform: rotateX(90deg) translateZ(17.5vmin);
+  --sz: 71%;
+  --dl: calc(var(--dv) * -4);
+  filter: hue-rotate(-6deg);
+}
