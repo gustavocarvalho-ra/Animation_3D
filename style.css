@@ -113,3 +113,59 @@ body {
   --dl: calc(var(--dv) * -9);
   filter: hue-rotate(-16deg);
 }
+
+.square div:nth-child(10) {
+  transform: rotateX(90deg) translateZ(2.5vmin);
+  --sz: 99%;
+  --dl: calc(var(--dv) * -10);
+  filter: hue-rotate(-18deg);
+}
+
+.square div:nth-child(11) {
+  transform: rotateX(90deg);
+  --sz: 100%;
+  --dl: calc(var(--dv) * -11);
+  filter: hue-rotate(-20deg);
+}
+
+.square div:nth-child(12) {
+  transform: rotateX(90deg) translateZ(-2.5vmin);
+  --sz: 99%;
+  --dl: calc(var(--dv) * -12);
+  filter: hue-rotate(-22deg);
+}
+
+.square div:nth-child(13) {
+  transform: rotateX(90deg) translateZ(-5vmin);
+  --sz: 97%;
+  --dl: calc(var(--dv) * -13);
+  filter: hue-rotate(-24deg);
+}
+
+.square div:nth-child(14) {
+  transform: rotateX(90deg) translateZ(-7.5vmin);
+  --sz: 95%;
+  --dl: calc(var(--dv) * -14);
+  filter: hue-rotate(-26deg);
+}
+
+.square div:nth-child(15) {
+  transform: rotateX(90deg) translateZ(-10vmin);
+  --sz: 91%;
+  --dl: calc(var(--dv) * -15);
+  filter: hue-rotate(-28deg);
+}
+
+.square div:nth-child(16) {
+  transform: rotateX(90deg) translateZ(-12.5vmin);
+  --sz: 86%;
+  --dl: calc(var(--dv) * -16);
+  filter: hue-rotate(-30deg);
+}
+
+.square div:nth-child(17) {
+  transform: rotateX(90deg) translateZ(-15vmin);
+  --sz: 80%;
+  --dl: calc(var(--dv) * -17);
+  filter: hue-rotate(-32deg);
+}
